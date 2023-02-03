@@ -1,0 +1,151 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500,300,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+        
+        <title>THE GREEN RESPONSIVE</title>
+    </head>
+    <body>
+
+    <header>
+        <div class="header_container">
+            <div class="logo_container">
+                <img class="logo" src="/img/thegreenlogo.png">
+            </div>
+
+            <nav class="nav_menu">
+                <ul>
+                    <li><a href="#" class="plant">Plants</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </nav>
+
+            <img class="menu" src="img/menu.png">
+            
+        </div>
+    </header>
+
+    <div class="hero_container">
+        <h1 class="company_name">The Greenery & Co.</h1>
+
+        <p class="plants_info">Plants are essentials in our home, that is why we care for your environment with our greenery.</p>
+
+        <div class="button">
+            <button class="shop">Shop</button>
+        </div>
+    </div>
+    <!-- OWL CAROUSEL -->
+    <div class="owl-carousel owl-theme">
+        <div><img class="pictures" src="img/hero-pic.png"></div>
+        <div><img class="pictures" src="img/hero-pic2.png"></div>
+        <div><img class="pictures" src="img/hero-pic3.png"></div>
+    </div>  
+
+    <div class="middle_container">
+      <div class="middle_info_container">
+        <h1 class="middle_know_more">
+          Know more about plants for your home!
+        </h1>
+
+        <p class="middle_paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in rutrum augue. Donec sit amet auctor orci. Cras eu leo ultrices, vestibulum odio non, accumsan magna. Vestibulum laoreet congue nibh,
+        </p>
+
+        <button class="plants_button">
+          Plants
+        </button>
+
+      </div>
+    </div>
+
+    <div class="service_container">
+      <h3 class="service">
+        Services
+      </h3>
+
+      <div class="service_grid">
+        <div class="grid_1">
+          <div class="grid_flex">
+            <img class="grid_pictures"src="img/deliver_services.png" alt="img">
+          </div>
+
+          <p class="deliver_paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in rutrum augue. Donec sit amet auctor orci. Cras eu leo ultrices, vestibulum odio non, accumsan magna. Vestibulum laoreet congue nibh,
+          </p>
+        </div>
+
+        <div class="grid_2">
+          <div class="grid_flex">
+            <img class="grid_pictures" src="img/plant_services.png" alt="img">
+          </div>
+
+          <p class="deliver_paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in rutrum augue. Donec sit amet auctor orci. Cras eu leo ultrices, vestibulum odio non, accumsan magna. Vestibulum laoreet congue nibh,
+          </p>
+        </div>
+
+        <div class="grid_3">
+          <div class="grid_flex">
+            <img src="img/person_services.png" alt="img" class="grid_pictures">
+          </div>
+
+          <p class="deliver_paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in rutrum augue. Donec sit amet auctor orci. Cras eu leo ultrices, vestibulum odio non, accumsan magna. Vestibulum laoreet congue nibh,
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="stay_container">
+      <h4 class="stay_connected">Stay Connected</h4>
+
+      <p class="stay_info">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in rutrum augue. Donec sit amet auctor orci. Cras eu leo ultrices, vestibulum odio non, accumsan magna. Vestibulum laoreet congue nibh,
+      </p>
+
+      <div class="type_container">
+        <input class="email" type="text" placeholder="Email:" style="width: 120px;">
+        <button class="send_button">Send</button>
+      </div>
+    </div>
+
+
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <script type="text/javascript">
+        
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:30,
+          nav:false,
+          dots: false,
+          responsive:{
+            0:{
+              items:1
+            },
+            600:{
+              items:2
+            },
+            1000:{
+              items:3
+            }
+          }
+        });
+
+    </script>
+
+
+    </body>
+    </html>
